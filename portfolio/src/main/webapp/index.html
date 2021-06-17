@@ -5,15 +5,47 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <style>
+    header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+    section1 {
+        float: left;
+        width: 30%;
+        height: 300px; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;
+    }
+    section2 {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 300px; /* only for demonstration, should be removed */
+    }
+    </style>
   </head>
-  <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+  <body style="background-color: #c8c8ec96;">
+    <div id="content">  
+      <header>
+      <h1>Laura Camacho</h1>
+      </header>
+      <section1>
+      <img src="/images/rock.jpeg"/>
+      </section1>
+      <section2>
+      <h2>About Me</h2>
+      <ul>
+        <li>I am a rising third year student at Cal Poly, SLO.</li>
+        <li>I am majoring in computer science and minoring in psychology.</li>
+        <li>In my free time I like to crochet, watch the Bachelorette, or go for a hike.</li>
+      </ul>
+      <h3>This is my portfolio.</h3>
+      </section2>
     </div>
   </body>
 </html>
