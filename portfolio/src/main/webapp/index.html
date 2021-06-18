@@ -1,108 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="author" content="Laura Camacho">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Laura Camacho">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>My Portfolio</title>
     <link rel="icon" href="/images/cowboyEmoji.png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
+    
     <script src="script.js"></script>
-<style>
-body { 
-  margin: 0;
-}
 
-* {
-  box-sizing: border-box;
-}
+<style>
+    body { 
+        margin: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
     .header {
-    padding-top: 60px;
-    padding-left: 40px;
-    padding-bottom: 15px;
-    /*text-align: left;*/
-    background: #c8c8ec96;
-    color: black;
+        padding-top: 60px;
+        padding-left: 40px;
+        padding-bottom: 15px;
+        /*text-align: left;*/
+        background: #c8c8ec96;
+        color: black;
     }
     
     .header a.logo {
-  font-size: 35px;
-  font-weight: bold;
-}
+        font-size: 35px;
+        font-weight: bold;
+    }
 
-.header-right {
-    float: right;
-}
-.header-right a {
-padding: 15px;
-color: black;
-text-decoration: none;
-text-align: center;
-font-size: 18px;
-border-radius: 4px;
-}
-.header-right a:hover {
-  background-color: #c8c8ecbd;
-  color: black;
-}
+    .header-right {
+        float: right;
+    }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-}
+    .header-right a {
+        padding: 15px;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 4px;
+    }
 
-.left {
-  width: 40%;
-  height: 50%; 
-}
+    .header-right a:hover {
+        background-color: #c8c8ecbd;
+        color: black;
+    }
 
-.right {
-  width: 60%;
-  padding: 30px;
-}
+    .column {
+        float: left;
+        padding: 10px;
+    }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    .left {
+        width: 40%;
+        height: 50%; 
+    }
+
+    .right {
+        width: 60%;
+        padding: 30px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
     img {
-    width: 100%;
-    height: auto;
+        width: 100%;
+        height: auto;
     }
-    </style>
     
 </style>
+
 </head>
-  <body style="background-color: #c8c8ec96;">
+<body style="background-color: #c8c8ec96;">
 
     <div class="header">
         <a class="logo">Laura Camacho</a>
-          <div class="header-right">
+        <div class="header-right">
     		<a href="../index.html">Home</a>
             <a href="#projects">Projects</a>
     		<a href="../contact.html">Contact</a>
-  		  </div>
+  		</div>
     </div>
-    
 
-<div class="row">
-  <div class="column left" style="background-color:#c8c8ec;">
-    <img src="/images/rock.jpeg" width="1134" height="1512">
-  </div>
-  <div class="column right" ">
-    <br>
-    <h2>About Me</h2>
-          <ul>
-        <li>I am a rising third year student at Cal Poly, San Luis Obispo.</li>
-        <li>I am majoring in computer science and minoring in psychology.</li>
-        <li>My hobbies include crocheting, watching documentaries, and hiking.</li>
-      </ul>
-  </div>
-</div>
+    <div class="row">
+        <div class="column left" style="background-color:#c8c8ec;">
+            <img src="/images/rock.jpeg" width="1134" height="1512">
+        </div>
+
+        <div class="column right" ">
+            <br>
+            <h2>About Me</h2>
+            <ul>
+                <li>I am a rising third year student at Cal Poly, San Luis Obispo.</li>
+                <li>I am majoring in computer science and minoring in psychology.</li>
+                <li>My hobbies include crocheting, watching documentaries, and hiking.</li>
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
