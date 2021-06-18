@@ -1,44 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Laura Camacho">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-
-    <style>
-    header {
-        background-color: #c8c8ec96;
-        padding: 30px;
-        text-align: left;
-        font-size: 30px;
-        color: white;
-        width: 100%;
+<style>
+* {
+  box-sizing: border-box;
+}
+    .header {
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    /*text-align: left;*/
+    background: #c8c8ec96;
+    color: white;
     }
 
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 40%;
+  height: 50%; 
+}
+
+.right {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
     img {
-    width: 50%;
+    width: 100%;
     height: auto;
     }
     </style>
     
-  </head>
+</style>
+</head>
   <body style="background-color: #c8c8ec96;">
 
-    <div id="content">  
-      <header>
-      <h1>Laura Camacho</h1>
-      </header>
-      <img src="/images/rock.jpeg"/ width="1134" height="1512">
+    <div class="header">
+        <h1>Laura Camacho</h1>
+    </div>
+    
 
-      <h2>About Me</h2>
-      <ul>
+<div class="row">
+  <div class="column left" style="background-color:#c8c8ec;">
+    <img src="/images/rock.jpeg" width="1134" height="1512">
+  </div>
+  <div class="column right" ">
+    <h2>About Me</h2>
+          <ul>
         <li>I am a rising third year student at Cal Poly, SLO.</li>
         <li>I am majoring in computer science and minoring in psychology.</li>
         <li>In my free time I like to crochet, watch the Bachelorette, or go for a hike.</li>
       </ul>
-      <h3>This is my portfolio.</h3>
-    </div>
+  </div>
+</div>
 
-  </body>
+</body>
 </html>
