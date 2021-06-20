@@ -1,15 +1,106 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <meta name="author" content="Laura Camacho">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>My Portfolio - Contact</title>
+    <link rel="icon" href="/images/cowboyEmoji.png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
+    
     <script src="script.js"></script>
-  </head>
-  <body>
-    <div id="content">
 
+<style>
+    body { 
+        margin: 0;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .header {
+        padding-top: 60px;
+        padding-left: 40px;
+        padding-bottom: 15px;
+        /*text-align: left;*/
+        background: #c8c8ec96;
+        color: black;
+    }
+    
+    .header a.logo {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .header-right a {
+        padding: 15px;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 4px;
+    }
+
+    .header-right a:hover {
+        background-color: #c8c8ecbd;
+        color: black;
+    }
+
+    .column {
+        float: left;
+        padding: 10px;
+    }
+
+    .left {
+        width: 40%;
+        height: 50%; 
+    }
+
+    .right {
+        width: 60%;
+        padding: 30px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+</style>
+
+</head>
+<body style="background-color: #c8c8ec96;">
+
+    <div class="header">
+        <a class="logo">Laura Camacho</a>
+        <div class="header-right">
+    		<a href="../index.html">Home</a>
+            <a href="../projects.html">Projects</a>
+    		<a href="../contact.html">Contact</a>
+  		</div>
     </div>
-  </body>
-</html>
 
+    <div class="row">
+        <div class="column left" style="background-color:#c8c8ec;">
+        <br>
+        </div>
+
+        <div class="column right">
+            
+        </div>
+    </div>
+
+</body>
+</html>
