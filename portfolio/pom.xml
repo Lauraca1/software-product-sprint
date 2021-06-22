@@ -19,6 +19,7 @@
     <googleCloudProjectId>YOUR_PROJECT_ID_HERE</googleCloudProjectId>
   </properties>
 
+
   <dependencies>
     <!-- Java Servlets API -->
     <dependency>
@@ -37,6 +38,11 @@
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-annotations</artifactId>
       <version>${jetty.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.6</version>
     </dependency>
   </dependencies>
 
