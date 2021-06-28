@@ -92,14 +92,28 @@
   		</div>
     </div>
 
-    <div class="row">
-        <div class="column left" style="background-color:#c8c8ec;">
+    <div style="background-color:#c8c8ec;">
+        
         <br>
-        </div>
+        <form action="/form-handler" method="POST">
+            <p>Full Name:</p>
+            <textarea name="name-input"></textarea>
+            <br/>
 
-        <div class="column right">
-            
-        </div>
+            <p>Email:</p>
+            <textarea name="email-input"></textarea>
+            <br/>
+
+            <p>Message:</p>
+            <textarea name="text-input"></textarea>
+            <br/>
+
+            <p>(optional) what's your sign:)</p>
+            <textarea name="astro-input"></textarea>
+            <br/>
+            <input type="submit" />
+        </form>
+
     </div>
 
 </body>

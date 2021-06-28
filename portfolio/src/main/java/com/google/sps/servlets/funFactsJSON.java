@@ -24,11 +24,6 @@ import java.util.ArrayList;
 /** Servlet that responds with the current date. */
 @WebServlet("/funFacts")
 public final class funFactsJSON extends HttpServlet {
-
-    /**
-     *
-     */
-    //private static final long serialVersionUID = 1L;
     
     private final ArrayList<String> faxx = new ArrayList<String>(3);
 

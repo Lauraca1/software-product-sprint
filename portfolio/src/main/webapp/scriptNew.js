@@ -22,16 +22,6 @@ async function getFacts() {
   const faxx = [facts.fact1, facts.fact2, facts.fact3];
   let bruh = Math.floor(Math.random() * 3);
   factsListElement.innerHTML = faxx[bruh];
-
-  /*factsListElement.appendChild(
-      createListElement(facts.fact1));*/
-}
-
-/** Creates an <li> element containing text. */
-function createListElement(text) {
-  const liElement = document.createElement('li');
-  liElement.innerText = text;
-  return liElement;
 }
 
 async function showMessage() {
